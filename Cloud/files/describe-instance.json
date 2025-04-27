@@ -1,0 +1,28 @@
+{
+    "ClientToken": "terraform-20202893727827727928292",
+    "InstanceId": "i-0d76526262627288ff282",
+    "Hypervisor": "xen",
+    "IamInstanceProfile": {
+        "Arn": "arn:aws:iam::2872827787ww209:instance-profile/cg-ec2-instance-profile-cge1817111",
+        "id":"AIPASHTUUUKSHVAXAIA6"
+    },
+    "NetworkInterfaces" :[
+        {
+            "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-88-881-001-001.compute-0.amazonaws.com",
+                "PublicIp": "10.0.xxx.xxx.xx"
+            }
+        }
+    ],
+    "Groups": [
+        {
+            "GroupId": "sg-1726626gg2220q0x9019",
+            "GroupName": "cg-ec2-ssh-cgidwwq23a111"
+        }
+    ],
+    "PrivateDnsName": "ip-xx-xx-xx-xxx.ec2.internal",
+    "PrivateIpAddress": "xx.xx.10.xxx"
+        
+    
+}

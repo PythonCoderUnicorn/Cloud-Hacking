@@ -1,0 +1,48 @@
+
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "cloud_defender",
+            "UserId": "FAKEIAMUSER001",
+            "Arn": "arn:aws:iam::123456789012:user/cloud_defender",
+            "CreateDate": "2024-10-27T10:00:00+00:00",
+            "PasswordLastUsed": "2025-04-20T14:30:00+00:00",
+            "PermissionsBoundary": {
+                "PermissionsBoundaryType": "Policy",
+                "PermissionsBoundaryArn": "arn:aws:iam::123456789012:policy/ReadOnlyAccess"
+            },
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "Demo"
+                },
+                {
+                    "Key": "Role",
+                    "Value": "SecurityAnalyst"
+                }
+            ]
+        },
+        {
+            "Path": "/development/",
+            "UserName": "dev_builder",
+            "UserId": "FAKEIAMUSER002",
+            "Arn": "arn:aws:iam::123456789012:user/development/dev_builder",
+            "CreateDate": "2024-11-15T15:45:00+00:00",
+            "Tags": [
+                {
+                    "Key": "Team",
+                    "Value": "Development"
+                }
+            ]
+        },
+        {
+            "Path": "/sandbox/",
+            "UserName": "test_explorer",
+            "UserId": "FAKEIAMUSER003",
+            "Arn": "arn:aws:iam::123456789012:user/sandbox/test_explorer",
+            "CreateDate": "2025-01-05T09:12:00+00:00",
+            "PasswordLastUsed": "2025-04-25T18:00:00+00:00"
+        }
+    ]
+}

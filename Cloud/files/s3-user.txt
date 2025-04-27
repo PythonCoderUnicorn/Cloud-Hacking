@@ -1,0 +1,6 @@
+
+{
+    "UserId": "667f4e0a337b5f240-hack3r",
+    "Account": "7892383722222",
+    "Arn": "arn:aws:iam::7892383722222:user/pam-test"
+}

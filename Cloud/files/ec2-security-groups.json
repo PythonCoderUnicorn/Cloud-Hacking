@@ -1,0 +1,32 @@
+{
+    "VpcId": "vpc-016w09sjsks8266267",
+    "SecurityGroupArn": "arn:aws:ec2:us-east-1:155522989948:security-group/sg-031jww7sbhshsc019",
+    "GroupName": "cg-ec2-ssh-cgiddfesv4kii1",
+    "Description": "CloudGoat cgiddfesv4kii1 Security Group for EC2 Instance over SSH",
+    "IpPermissions": [
+        {
+            "IpProtocol": "tcp",
+            "FromPort": 80,
+            "ToPort": 80,
+            "UserIdGroupPairs": [],
+            "IpRanges": [
+                {
+                    "CidrIp": "xxx.10.xxx.xxx/32"
+                }
+            ],
+            "Ipv6Ranges": []
+        },
+        {
+            "IpProtocol": "tcp",
+            "FromPort": 22,
+            "ToPort": 22,
+            "UserIdGroupPairs": [],
+            "IpRanges": [
+                {
+                    "CidrIp": "xxx.10.xxx.xxx/32"
+                }
+            ],
+            "Ipv6Ranges": []
+        }
+    ]
+}

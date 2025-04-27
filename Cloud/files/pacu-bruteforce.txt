@@ -1,0 +1,59 @@
+
+{
+    "region": "us-east-1",
+    "vulnerable_resources": [
+        {
+            "resource_type": "IAM Role",
+            "resource_name": "DeveloperRole",
+            "findings": [
+                {
+                    "type": "AssumeRole",
+                    "status": "Vulnerable",
+                    "details": "Role allows sts:AssumeRole from a wide range of principals, potentially including unknown or untrusted entities.",
+                    "statement_id": "AllowAssumeRole"
+                }
+            ]
+        },
+        {
+            "resource_type": "IAM User",
+            "resource_name": "TestUser",
+            "findings": [
+                {
+                    "type": "PasswordPolicy",
+                    "status": "Vulnerable",
+                    "details": "User's password policy does not enforce strong password requirements (e.g., minimum length, complexity).",
+                    "statement_id": null
+                }
+            ]
+        },
+        {
+            "resource_type": "IAM Role",
+            "resource_name": "ReadOnlyRole",
+            "findings": [
+                {
+                    "type": "AssumeRole",
+                    "status": "Not Vulnerable",
+                    "details": "Role only allows sts:AssumeRole from specific, trusted accounts.",
+                    "statement_id": "AllowAssumeRole"
+                }
+            ]
+        },
+        {
+            "resource_type": "IAM Policy",
+            "resource_name": "S3AccessPolicy",
+            "findings": [
+                {
+                    "type": "WildcardAction",
+                    "status": "Vulnerable",
+                    "details": "Policy allows the * action on S3 resources, granting overly broad permissions.",
+                    "statement_id": "AllowS3Access"
+                }
+            ]
+        }
+    ],
+    "summary": {
+        "total_resources": 4,
+        "vulnerable_resources_count": 3,
+        "region": "us-east-1"
+    }
+}

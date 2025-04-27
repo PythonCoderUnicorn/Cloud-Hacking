@@ -1,0 +1,19 @@
+
+{
+    "Groups": [
+        {
+            "Path": "/",
+            "GroupName": "developers",
+            "GroupId": "FAKEIAMGROUP001",
+            "Arn": "arn:aws:iam::123456789012:group/developers",
+            "CreateDate": "2025-03-10T08:30:00+00:00"
+        },
+        {
+            "Path": "/operations/",
+            "GroupName": "administrators",
+            "GroupId": "FAKEIAMGROUP002",
+            "Arn": "arn:aws:iam::123456789012:group/operations/administrators",
+            "CreateDate": "2025-04-01T14:00:00+00:00"
+        }
+    ]
+}

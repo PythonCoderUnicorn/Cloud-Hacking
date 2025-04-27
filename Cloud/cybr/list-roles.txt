@@ -1,0 +1,140 @@
+
+
+{
+    "Roles": [
+        {
+            "Path": "/service-role/",
+            "RoleName": "ecsTaskExecutionRole",
+            "RoleId": "FAKEIAMROLE001",
+            "Arn": "arn:aws:iam::123456789012:role/service-role/ecsTaskExecutionRole",
+            "CreateDate": "2025-02-10T11:00:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ecs-tasks.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            }
+        },
+        {
+            "Path": "/",
+            "RoleName": "lambda-basic-execution",
+            "RoleId": "FAKEIAMROLE002",
+            "Arn": "arn:aws:iam::123456789012:role/lambda-basic-execution",
+            "CreateDate": "2025-03-01T16:30:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "lambda.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/service-role/",
+            "RoleName": "AWSSupportAccess",
+            "RoleId": "FAKEIAMROLE003",
+            "Arn": "arn:aws:iam::123456789012:role/service-role/AWSSupportAccess",
+            "CreateDate": "2025-04-05T09:00:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "support.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole",
+                        "Condition": {
+                            "StringEquals": {
+                                "sts:ExternalId": "SUPPORTACCOUNT123"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Description": "Allows AWS Support to access resources in your account."
+        },
+        {
+            "Path": "/service-role/",
+            "RoleName": "AmazonEC2RoleForSSM",
+            "RoleId": "FAKEIAMROLE004",
+            "Arn": "arn:aws:iam::123456789012:role/service-role/AmazonEC2RoleForSSM",
+            "CreateDate": "2025-05-12T13:20:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole",
+                        "Condition": {
+                            "StringEquals": {
+                                "ec2:InstanceProfile": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Description": "Allows EC2 instances to use AWS Systems Manager."
+        },
+        {
+            "Path": "/aws-service-role/rds.amazonaws.com/",
+            "RoleName": "AWSServiceRoleForRDS",
+            "RoleId": "FAKEIAMROLE005",
+            "Arn": "arn:aws:iam::123456789012:role/aws-service-role/rds.amazonaws.com/AWSServiceRoleForRDS",
+            "CreateDate": "2025-06-20T17:55:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "rds.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Description": "Allows RDS to manage AWS resources on your behalf."
+        },
+                {
+            "Path": "SupportRole",
+            "RoleName": "AmazonEC2RoleForSSM",
+            "RoleId": "FAKEIAMROLE004",
+            "Arn": "arn:aws:iam::123456789012:role/service-role/AmazonEC2RoleForSSM",
+            "CreateDate": "2025-05-12T13:20:00+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole",
+                        "Condition": {
+                            "StringEquals": {
+                                "ec2:InstanceProfile": "true"
+                            }
+                        }
+                    }
+                ]
+            },
+            "Description": "Allows EC2 instances to use AWS Systems Manager."
+        },
+    ]
+}

@@ -1,0 +1,11 @@
+
+{
+    "AccessKeyMetadata": [
+        {
+            "Username": "intro-to-aws-17452877775-Joel",
+            "AccessKeyId": "AKIAQGYBPW3XXDKH5A0FF",
+            "Status": "Active",
+            "CreateDate": "2025-04-22T02:211:54+00:00"
+        }
+    ]
+}

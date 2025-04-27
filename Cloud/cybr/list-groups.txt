@@ -1,0 +1,11 @@
+{
+    "Groups": [
+        {
+            "Path": "/",
+            "GroupName": "developers",
+            "GroupId": "FAKEIAMGROUP001",
+            "Arn": "arn:aws:iam::123456789012:group/developers",
+            "CreateDate": "2025-03-10T08:30:00+00:00"
+        },
+    ]
+}

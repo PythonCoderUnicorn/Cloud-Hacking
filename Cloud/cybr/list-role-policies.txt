@@ -1,0 +1,7 @@
+
+
+{
+    "PolicyNames": [
+        "AllowS3FullAccessForRole"
+    ]
+}

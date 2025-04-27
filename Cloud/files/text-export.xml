@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database_credentials>
+    <CredentialEntry>
+        <ServiceType>Oracle Database</ServiceType>
+        <Hostname>oracle-db-server01.prod.h1-webinternal.com</Hostname>
+        <Username>APP_USER</Username>
+        <Password>S:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Password>
+        <Notes>Application user for the primary application database.</Notes>
+    </CredentialEntry>
+    <CredentialEntry>
+        <ServiceType>Oracle Database</ServiceType>
+        <Hostname>oracle-db-server02.prod.h1-webinternal.com</Hostname>
+        <Username>REPORT_USER</Username>
+        <Password>S:YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY</Password>
+        <Notes>User for generating reports.</Notes>
+    </CredentialEntry>
+    <CredentialEntry>
+        <ServiceType>Oracle Database</ServiceType>
+        <Hostname>oracle-db-server03.prod.h1-webinternal.com</Hostname>
+        <Username>DBA_USER</Username>
+        <Password>S:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Password>
+        <Notes>Database Administrator User</Notes>
+    </CredentialEntry>
+    <CredentialEntry>
+        <ServiceType>Oracle Database</ServiceType>
+        <Hostname>oracle-db-server04.test.h1-webinternal.com</Hostname>
+        <Username>TEST_USER</Username>
+        <Password>S:ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ</Password>
+        <Notes>User for testing database access.</Notes>
+    </CredentialEntry>
+</database_credentials>

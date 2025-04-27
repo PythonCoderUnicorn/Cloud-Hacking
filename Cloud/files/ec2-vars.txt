@@ -1,0 +1,4 @@
+
+Key                     Value
+EC2_ACCESS_KEY_ID       70b8e2571472543758ad0856c
+EC2_SECRET_KEY_ID       Yqbh1OuPbXSKl8XnkErZibRb7+2ShMA1PZC2

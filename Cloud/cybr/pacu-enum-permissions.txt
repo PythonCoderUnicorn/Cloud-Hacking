@@ -1,0 +1,14 @@
+
+[iam__enum_permisions] Confirming permissions for users:
+[iam__enum_permisions]   intro-to-aws-17452877775-Joel ...
+[iam__enum_permisions]     confirmed Permissions for intro-to-aws-17452877775-Joel
+[iam__enum_permisions] iam__enum_permisions completed.
+
+[iam__enum_permisions] MODULE SUMMARY:
+
+20 Confirmed permissions for user: intro-to-aws-17452877775-Joel
+0 Confirmed permissions for 0 role(s)
+0 Unconfirmed permissions for 0 user(s)
+0 Unconfirmed permissions for 0 role(s)
+
+Type 'whoami' to see detailed list of permissions.

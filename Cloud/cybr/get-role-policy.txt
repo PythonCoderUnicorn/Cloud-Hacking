@@ -1,0 +1,16 @@
+
+{
+    "RoleName": "SupportRole",
+    "PolicyName": "allowS3FullAccessForRole",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [ "Ss3:*"],
+                "Resource": "*",
+                "Effect": "Allow",
+                "Sid": "AllowS3FullAccess"
+            }
+        ]
+    }
+}

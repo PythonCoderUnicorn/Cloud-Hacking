@@ -1,0 +1,33 @@
+
+{
+    "Users": [
+        {
+            "Arn": "arn:aws:iam::123456789012:user/john.doe",
+            "CreateDate": "2024-07-28T10:00:00Z",
+            "Path": "/",
+            "UserId": "AIDA1234567890ABCDEF",
+            "UserName": "john.doe"
+        },
+        {
+            "Arn": "arn:aws:iam::123456789012:user/jane.smith",
+            "CreateDate": "2024-08-15T14:30:00Z",
+            "Path": "/",
+            "UserId": "AIDA2345678901BCDEFG",
+            "UserName": "jane.smith"
+        },
+        {
+            "Arn": "arn:aws:iam::123456789012:user/robert.jones",
+            "CreateDate": "2024-09-02T09:15:00Z",
+            "Path": "/",
+            "UserId": "AIDA3456789012CDEFGH",
+            "UserName": "robert.jones"
+        },
+        {
+            "Arn": "arn:aws:iam::123456789012:user/alice.brown",
+            "CreateDate": "2024-09-20T16:00:00Z",
+            "Path": "/",
+            "UserId": "AIDA4567890123DEFGHI",
+            "UserName": "alice.brown"
+        }
+    ]
+}

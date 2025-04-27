@@ -1,0 +1,16 @@
+
+{
+    "User": {
+        "Path": "/",
+        "UserName": "intro-to-aws-17452877775-Joel",
+        "UserId"; "AIDAQGYBYPWSEPEMJCBX2",
+        "Arn": "arn:aws:iam::012298641646:user/intro-to-aws-17452877775-Joel",
+        "CreateDate": "2025-04-22T02:211:54+00:00",
+        "Tags": [
+            {
+                "Key": "cybr-lab",
+                "value": "auto-deployed"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+
+{
+    "UserName": null,
+    "RoleName": null,
+    "Arn": null,
+    "AccountId": null,
+    "Roles": null,
+    "Groups": null,
+    "Policies": null,
+    "AccessKeyId": "AKIARQTXN33JIOXD0VHX",
+    "SecretAccessKey": "hs87shba2n129+9a8aw2*************",
+    "SessionToken": null,
+    "KeyAlias": "imported-cybr",
+    "Permissions": {
+        "Allow": {}.
+        "Deny": {}
+    }
+}

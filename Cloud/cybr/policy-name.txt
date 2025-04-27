@@ -1,0 +1,20 @@
+
+{
+    "UserName": "intro-to-aws-17452877775-Joel",
+    "PolicyName": "AllowEnumerateRoles",
+    "PolicyDocument": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Action": [
+                    "iam:GetRole",
+                    "iam:GetRolePolicy",
+                    "iam:ListRoles",
+                    "iam:ListRolePolicies"
+                ],
+                "Resource": "*",
+                "Effect": "Allow"
+            }
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+
+[iam__enum_users_roles_policies_groups] Found 4 users 
+[iam__enum_users_roles_policies_groups] Found 14 roles
+[iam__enum_users_roles_policies_groups] No Policies Found
+[iam__enum_users_roles_policies_groups] FAILURE: MISSING NEEDED PERMISSIONS 
+[iam__enum_users_roles_policies_groups] Found 2 groups 
+[iam__enum_users_roles_policies_groups] iam__enum_users_roles_policies_groups completed.
+
+[iam__enum_users_roles_policies_groups] MODULE SUMMARY:
+
+4 Users Enumerated
+14 Roles Enumerated
+0 Policies Enumerated
+2 Groups Enumerated
+IAM resources saved in Pacu database.
+

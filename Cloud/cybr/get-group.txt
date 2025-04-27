@@ -1,0 +1,26 @@
+
+{
+    "Group": {
+        "Path": "/",
+        "GroupName": "developers",
+        "GroupId": "FAKEIAMGROUP001",
+        "Arn": "arn:aws:iam::123456789012:group/developers",
+        "CreateDate": "2025-03-10T08:30:00+00:00"
+    },
+    "Users": [
+        {
+            "UserName": "dev_user1",
+            "UserId": "FAKEUSER001",
+            "Arn": "arn:aws:iam::123456789012:user/dev_user1",
+            "CreateDate": "2025-03-15T10:00:00+00:00",
+            "Path": "/development/"
+        },
+        {
+            "UserName": "dev_user2",
+            "UserId": "FAKEUSER002",
+            "Arn": "arn:aws:iam::123456789012:user/dev_user2",
+            "CreateDate": "2025-03-20T14:45:00+00:00",
+            "Path": "/development/"
+        }
+    ]
+}

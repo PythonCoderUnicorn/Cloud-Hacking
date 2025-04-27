@@ -1,0 +1,118 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "process-image",
+            "FunctionArn": "arn:aws:lambda:us-east-1:123456789012:function:process-image",
+            "Runtime": "nodejs18.x",
+            "Role": "arn:aws:iam::123456789012:role/lambda-execution-role",
+            "Handler": "index.handler",
+            "CodeSize": 3020,
+            "Description": "Processes uploaded images and creates thumbnails.",
+            "Timeout": 30,
+            "MemorySize": 128,
+            "LastModified": "2024-03-15T10:00:00.000+0000",
+            "CodeSha256": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "abcdefg-hijk-lmnp-qrst-uvwxyz12345",
+            "State": "Active",
+            "LastUpdateStatus": "Successful",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ]
+        },
+        {
+            "FunctionName": "user-authentication",
+            "FunctionArn": "arn:aws:lambda:us-east-1:123456789012:function:user-authentication",
+            "Runtime": "python3.11",
+            "Role": "arn:aws:iam::123456789012:role/lambda-auth-role",
+            "Handler": "main.authenticate",
+            "CodeSize": 5500,
+            "Description": "Authenticates users against a database.",
+            "Timeout": 60,
+            "MemorySize": 256,
+            "LastModified": "2024-04-01T14:30:00.000+0000",
+            "CodeSha256": "0987654321fedcba0987654321fedcba0987654321fedcba0987654321fedcba",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "Active"
+            },
+            "RevisionId": "zyxwvu-tsrq-ponm-lkji-hgfedcba67890",
+            "State": "Active",
+            "LastUpdateStatus": "Successful",
+            "PackageType": "Zip",
+            "Architectures": [
+                "arm64"
+            ],
+            "Layers": [
+                {
+                    "Arn": "arn:aws:lambda:us-east-1:123456789012:layer:common-libs:3",
+                    "CodeSize": 1200
+                }
+            ]
+        },
+        {
+            "FunctionName": "daily-report-generator",
+            "FunctionArn": "arn:aws:lambda:us-east-1:987654321012:function:daily-report-generator",
+            "Runtime": "java17",
+            "Role": "arn:aws:iam::987654321012:role/lambda-reporting-role",
+            "Handler": "com.example.ReportGenerator::generate",
+            "CodeSize": 10240,
+            "Description": "Generates daily sales reports and uploads them to S3.",
+            "Timeout": 300,
+            "MemorySize": 512,
+            "LastModified": "2024-04-20T09:15:00.000+0000",
+            "CodeSha256": "aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "1a2b3c4d-5e6f-7g8h-9i0j-klmnopqrstuvw",
+            "State": "Active",
+            "LastUpdateStatus": "Successful",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "Environment": {
+                "Variables": {
+                    "S3_BUCKET": "reporting-bucket",
+                    "REPORT_TYPE": "daily"
+                }
+            }
+        },
+        {
+            "FunctionName": "daily-report-generator2",
+            "FunctionArn": "arn:aws:lambda:us-east-1:987654321012:function:daily-report-generator",
+            "Runtime": "java19",
+            "Role": "arn:aws:iam::987654321012:role/lambda-reporting-role",
+            "Handler": "com.example.ReportGenerator::generate",
+            "CodeSize": 10240,
+            "Description": "Generates daily sales reports and uploads them to S3.",
+            "Timeout": 300,
+            "MemorySize": 512,
+            "LastModified": "2024-04-20T09:15:00.000+0000",
+            "CodeSha256": "aabbccddeeff00112233445566778899aabbccddeeff00112233445566778899",
+            "Version": "$LATEST",
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "1a2b3c4d-5e6f-7g8h-9i0j-klmnopqrstuvw",
+            "State": "Active",
+            "LastUpdateStatus": "Successful",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "Environment": {
+                "Variables": {
+                    "EC2_ACCESS_KEY_ID": "AKI2WWGV56KSLMAXCAW",
+                    "EC2_SECRET_KEY_ID": "Yqbh1OuPbXSKl8XnkErZibRb7+2ShMA1PZC2"
+                }
+            }
+        }
+    ]
+}

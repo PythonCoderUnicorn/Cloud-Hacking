@@ -1,0 +1,6 @@
+
+{
+    "UserId": "AKI2WWGV56KSLMAXCAW",
+    "Account": "153487292772",
+    "Arn": "arn:aws:iam::153487292772:/user/solus-cgidjai902ixs"
+}

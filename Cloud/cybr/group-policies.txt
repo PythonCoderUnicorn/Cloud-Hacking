@@ -1,0 +1,7 @@
+
+{
+    "PolicyNames": [
+        "ReadS3Objects",
+        "WriteToLogs"
+    ]
+}
